@@ -10,13 +10,15 @@ import { getStorage } from 'firebase/storage' ;
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCBYzXlHIlo4a73uVOwv50-TZpz_QG3UNI",
-  authDomain: "inviso-e3026.firebaseapp.com",
-  projectId: "inviso-e3026",
-  storageBucket: "inviso-e3026.appspot.com",
-  messagingSenderId: "396027598622",
-  appId: "1:396027598622:web:587fbedd4f5739bb46db0f"
+// Import the functions you need from the SDKs you need
+  apiKey: "AIzaSyDRQfeqTYsMT0TqdOnOOSXrMtdme4YgG4U",
+  authDomain: "creative-43358.firebaseapp.com",
+  projectId: "creative-43358",
+  storageBucket: "creative-43358.appspot.com",
+  messagingSenderId: "1070785313020",
+  appId: "1:1070785313020:web:7c90577fd02a7f48e2bf79"
 };
+
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);

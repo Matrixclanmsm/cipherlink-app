@@ -20,6 +20,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
+
+
 .formContainer {
   display: flex;
   justify-content: center;
@@ -132,6 +134,14 @@ h1{
       margin-top: 10px;
     }
   }
+}
+
+.home .container .chat .input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #000000!important;
+  font-size: 18px;
 }
 
 .home {
